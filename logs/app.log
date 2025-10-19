@@ -1,0 +1,38 @@
+2025-10-19 23:00:14,267 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-19 23:00:14,267 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-19 23:00:14,271 [INFO]  * Restarting with stat
+2025-10-19 23:00:15,010 [WARNING]  * Debugger is active!
+2025-10-19 23:00:15,025 [INFO]  * Debugger PIN: 132-958-747
+2025-10-19 23:02:37,678 [INFO] 127.0.0.1 - - [19/Oct/2025 23:02:37] "[31m[1mGET /upload HTTP/1.1[0m" 405 -
+2025-10-19 23:10:36,730 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-19 23:10:36,731 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-19 23:10:36,746 [INFO]  * Restarting with stat
+2025-10-19 23:10:37,531 [WARNING]  * Debugger is active!
+2025-10-19 23:10:37,535 [INFO]  * Debugger PIN: 132-958-747
+2025-10-19 23:10:42,048 [INFO] 127.0.0.1 - - [19/Oct/2025 23:10:42] "[31m[1mGET /upload HTTP/1.1[0m" 405 -
+2025-10-19 23:21:15,813 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-19 23:21:15,813 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-19 23:21:15,813 [INFO]  * Restarting with stat
+2025-10-19 23:21:17,070 [WARNING]  * Debugger is active!
+2025-10-19 23:21:17,077 [INFO]  * Debugger PIN: 132-958-747
+2025-10-19 23:21:42,065 [INFO] 127.0.0.1 - - [19/Oct/2025 23:21:42] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-10-19 23:22:49,185 [INFO] 127.0.0.1 - - [19/Oct/2025 23:22:49] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-10-19 23:25:38,458 [INFO] 127.0.0.1 - - [19/Oct/2025 23:25:38] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-10-19 23:26:25,526 [INFO] 127.0.0.1 - - [19/Oct/2025 23:26:25] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-10-19 23:28:14,261 [INFO] File saved: uploads/7c9a079b05724d74a901c76760093e2a\175fc50dc5974e6eae955cfb98910e5f_home_1.png
+2025-10-19 23:28:14,270 [INFO] 127.0.0.1 - - [19/Oct/2025 23:28:14] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2025-10-19 23:28:29,320 [INFO] 127.0.0.1 - - [19/Oct/2025 23:28:29] "[33mGET /7c9a079b05724d74a901c76760093e2a//175fc50dc5974e6eae955cfb98910e5f_home_1.png HTTP/1.1[0m" 404 -
+2025-10-19 23:29:37,095 [INFO] 127.0.0.1 - - [19/Oct/2025 23:29:37] "GET /file/1 HTTP/1.1" 200 -
+2025-10-19 23:30:17,987 [INFO] File saved: uploads/33a87404757648c38fb9c1bd3fca66ab\cceaadc4602c41d9a677a63eecf9d918_envelope.png
+2025-10-19 23:30:17,992 [INFO] 127.0.0.1 - - [19/Oct/2025 23:30:17] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2025-10-19 23:30:37,920 [INFO] File saved: uploads/2a666e11d26a45f58fb85d0254d0c204\5ae7c081009948e5820b0c982b20d592_ARD.jpg
+2025-10-19 23:30:37,923 [INFO] 127.0.0.1 - - [19/Oct/2025 23:30:37] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2025-10-19 23:30:51,910 [INFO] 127.0.0.1 - - [19/Oct/2025 23:30:51] "[33mPOST /file HTTP/1.1[0m" 404 -
+2025-10-19 23:30:54,747 [INFO] 127.0.0.1 - - [19/Oct/2025 23:30:54] "[33mPOST /file/ HTTP/1.1[0m" 404 -
+2025-10-19 23:30:58,985 [INFO] 127.0.0.1 - - [19/Oct/2025 23:30:58] "[33mGET /file HTTP/1.1[0m" 404 -
+2025-10-19 23:31:55,066 [INFO] File deleted from storage: uploads/7c9a079b05724d74a901c76760093e2a\175fc50dc5974e6eae955cfb98910e5f_home_1.png
+2025-10-19 23:31:55,078 [INFO] Record deleted: ID=1
+2025-10-19 23:31:55,079 [INFO] 127.0.0.1 - - [19/Oct/2025 23:31:55] "DELETE /file/1 HTTP/1.1" 200 -
